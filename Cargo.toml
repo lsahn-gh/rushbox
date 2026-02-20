@@ -1,0 +1,9 @@
+[package]
+name = "rushbox"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2.180"
+clap = { version = "4.5.57", features = ["cargo", "derive"] }
+rand = "0.9.2"
